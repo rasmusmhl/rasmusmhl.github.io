@@ -1,1 +1,609 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Homepage for Rasmus Høegh</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+
+			<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
+			<h1><strong>I am Rasmus Høegh</strong>. I am currently a PhD student, <br />
+				researching probabilistic deep learning<br /><br />
+				<br />
+			</h1>
+
+
+			Check out my CV, link to GitHub, etc., below.
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<!-- <h2>I want to make AIs learn how to hear uncertainly well<br />
+							</h2> -->
+			</header>
+			<p>
+				<i>Brief bio</i><br />
+				I am a PhD student at WSAudiology and the Technical University of Denmark (DTU).
+				I am interested in probabilistic approaches to deep learning - especially deep generative models of
+				sequential data and machine learning applied in health technology.
+				<!--I am especially interested in biological signals and how we can use machine learning systems
+							that measure us, understands us and interact with us.-->
+				<!--Currently, I primarily research how we can make more robost deep learning models that can learn representations of audio that generalize to real-world use scenarios.-->
+				Currently, I primarily research how we can make audio models that generalize to real-world use
+				scenarios.
+				Specifically, I've been working on variational autoencoders and how probabilistic modelling enables us
+				to, e.g., learn robust latent representations, incorporate prior knowledge, and utilize uncertainty
+				quantification.
+				Below is a collection of some recent work and news.
+
+
+			</p>
+			<!--
+						<center>
+						<a class="twitter-timeline" data-width="400" data-height="400" data-dnt="true" href="https://twitter.com/rasthh?ref_src=twsrc%5Etfw">
+							Tweets by rasthh</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</center> -->
+			<!--<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>-->
+		</section>
+
+		<!-- Two -->
+		<section id="two">
+			<h2>Recent Work and News</h2>
+			<div class="row">
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/cdvae/cdvae_components.png" class="image fit thumb"><img
+							src="images/cdvae/cdvae_components.png" alt="" /></a>
+					<h3> UC Berkeley/ICSI stay: Continuously deep hierarchical VAE
+					</h3>
+					<p>I'm visiting Berkeley working with M. Mahoney. We are developing continuously deep hierarchical
+						variational autoencoders by combining neural stochstic differential equations with hierarchical
+						variational autoencoder models.</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/directional-archetypes/trajectories.png" class="image fit thumb"><img
+							src="images/directional-archetypes/trajectories.png" alt="" /></a>
+					<h3> Directional archetypal analysis
+						<!-- <a href="https://github.com/rasthh/directional-archetypes">Directional archetypal analysis</a> -->
+					</h3>
+					<p>Multi-subject, multi-modal modelling of functional neuroimaging data using directional
+						statistics. Published in Frontiers in Neuroscience (<a
+							href="https://doi.org/10.3389/fnins.2022.911034">paper</a>, <a
+							href="https://twitter.com/anders_s_olsen/status/1557389474451128320?s=20&t=tX-v6wR2gltHqZ7NquKaRw">Twitter
+							thread</a>).
+					</p>
+				</article>
+
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/vitasnet/multitask_uq.png" class="image fit thumb"><img
+							src="images/vitasnet/multitask_uq.png" alt="" /></a>
+					<h3>VI-TasNet</h3>
+					<p>The Variational Inference Time-domain Audio Separation Network (VI-TasNet) is probabilistic
+						extension of TasNets.
+						The work shows how we can incorporate domain-knowledge priors in modelling and quantify
+						separation performance uncertainty unintrusively.
+						We also investigate how speaker separation generalization can be understood through the lense of
+						rate-distortion analysis. </p>
+					<p>(preprint available) </p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<iframe class="image fit thumb"
+						src="https://www.linkedin.com/embed/feed/update/urn:li:share:6868901698035867648"
+						frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+					<h3>Research Pitch Battle winner</h3>
+					I won Danish Sound Days research pitch battle competition, see their post on the competition above.
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/icmlfl/cgau.png" class="image fit thumb"><img src="images/icmlfl/cgau.png"
+							alt="" /></a>
+					<h3>Client adaptation in federated learning </h3>
+					<p> We present a federated learning approach for learning a client adaptable, robust model when data
+						is non-identically and non-independently distributed (non-IID) across clients, as well as a way
+						to simulate non-IID clients.</p>
+					<p>(<a href="https://arxiv.org/abs/2007.04806">arXiv</a>, presented at <a
+							href="http://federated-learning.org/fl-icml-2020/"> FL-ICML 2020 </a>) </p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<!--<a href="images/icmlfl/cgau.png" class="image fit thumb"><img src="images/icmlfl/cgau.png" alt="" /></a>-->
+					<h3>Deep unsupervised learning course </h3>
+					<p>I organized and helped teach a course on deep unsupervised learning at DTU, modelled on the
+						Berkeley CS294-158.</p>
+					<p>(<a href="https://github.com/rasthh/course-deep-unsupervised-learning">course page</a>)</p>
+				</article>
+
+
+				<article class="col-6 col-12-xsmall work-item">
+					<!--<a href="images/icmlfl/cgau.png" class="image fit thumb"><img src="images/icmlfl/cgau.png" alt="" /></a>-->
+					<h3>IFD Industrial PhD scholarship for probabilistic deep learning for hearing aid speech separation
+					</h3>
+					<p>Together with <a href="https://www.wsa.com/"> WSAudiology </a> and <a
+							href="https://www.compute.dtu.dk/english/research/research-sections/cogsys"> DTU CogSys
+						</a>, I received 60k EUR industrial PhD scholarship from the <a
+							href="https://innovationsfonden.dk/en">Innovation Fund Denmark</a>.</p>
+
+				</article>
+
+
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/regnlydenud/regnlydenud_lecture.png" class="image fit thumb"><img
+							src="images/regnlydenud/regnlydenud_lecture.png" alt="" /></a>
+					<!--<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>-->
+					<h3> <a
+							href="https://www.dtu.dk/om-dtu/nyheder-og-presse/arrangementer/forskningens-doegn/regn-lyden-ud">Regn
+							lyden ud</a></h3>
+					<p>Teaching high schools students about sound and machine learning using Google Colab (see export on
+						GitHub <a href="https://github.com/rasthh/regnlydenud/blob/master/RegnLydenUd.ipynb"> here
+						</a>). Photo by <a href="https://www.instagram.com/p/Bwtid1tBoQ5/">Forskningens Døgn</a>.</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/02450demos/demo4.png" class="image fit thumb"><img src="images/02450demos/demo4.png"
+							alt="" /></a>
+					<h3>Interactive machine learning demos</h3>
+
+					<p>I developed a <a href="http://www2.imm.dtu.dk/courses/02450/DemoNormal.html"> series </a> of
+						machine learning
+						demos for an introductory machine learning <a
+							href="http://www2.imm.dtu.dk/courses/02450/">course at DTU</a> .</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/stroke-deeplearning/stroke.png" class="image fit thumb"><img
+							src="images/stroke-deeplearning/stroke.png" alt="" /></a>
+					<h3>Stanford stay: Interpretable deep learning for stroke treatment</h3>
+					<p>The work was done for my <a href="thesis_overview.pdf">Master's thesis</a>, as a visiting student
+						research at Stanford University (School of Medicine) in collaboration between DTU, <a
+							href="https://stanfordhealthcare.org/medical-clinics/sleep-medicine-center.html"> Stanford
+							Center for Sleep Sciences and Medicine</a>, and <a
+							href="https://www.rigshospitalet.dk/english/Pages/default.aspx"> Rigshospitalet Denmark
+						</a>.</p>
+				</article>
+
+
+				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/ewh/ewh.jpg" class="image fit thumb"><img src="images/ewh/ewh.jpg" alt="" /></a>
+					<h3>Danish Foreign Ministry's World Image Grant//Visiting biomedical engineer in Nepal</h3>
+					<p>We received a grant of 7k EUR for the production of a documentary for an alternative view on a
+						developing country. Through <a href="http://www.ewh.dtu.dk/">Engineering World Health at DTU
+						</a> I was deployed at Okhaldhunga Community Hospitals. My work at the hospital entailed
+						hospital equipment repair, healthcare staff training (proper use and maintenance), and
+						needfinding (initial phase design research and planning). Photo by S. Sundgaaard.</p>
+				</article>
+
+
+
+				<!--
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							-->
+			</div>
+			<!--<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul>-->
+		</section>
+
+		<!-- Three -->
+		<!--
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				-->
+		<!-- Four -->
+		<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				-->
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://twitter.com/rasthh" class="icon brands fa-twitter"><span
+							class="label">Twitter</span></a></li>
+				<li><a href="https://github.com/rasthh/" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/rasmus-hoeegh/" class="icon brands fa-linkedin-in"><span
+							class="label">LinkedIn</span></a></li>
+				<!--<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+				<li><a href="https://scholar.google.com/citations?user=r_B3ZzMAAAAJ&hl=en"
+						class="ai ai-google-scholar-square ai-2x"><span class="label"></span></a></li>
+				<li><a href="https://orcid.org/0000-0002-1851-7396" class="ai ai-orcid ai-2x"><span
+							class="label"></span></a></li>
+				<li><a href="CV.pdf" class="ai ai-cv-square ai-2x"><span class="label"></span></a></li>
+				<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Rasmus Høegh</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
